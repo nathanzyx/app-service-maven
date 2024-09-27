@@ -7,7 +7,7 @@
 <version>0.0.1-SNAPSHOT</version>
 <name>AzureAppDemo</name>
     <properties>
-        <azureFtpUrl>YOUR_AZURE_FTP_URL</azureFtpUrl>
+        <azureFtpUrl>ftp://your-azure-account.net</azureFtpUrl>
         <!-- other properties -->
     </properties>
 <dependencies>
