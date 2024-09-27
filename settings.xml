@@ -17,6 +17,7 @@
         <configuration>
             <endpointChecking>false</endpointChecking>
             <securityProtocol>TLS</securityProtocol>
+            <securityProtocol>FTPS</securityProtocol>
             <implicit>true</implicit>
             <passiveMode>true</passiveMode>
         </configuration>
