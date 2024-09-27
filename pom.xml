@@ -45,13 +45,6 @@
             <groupId>org.codehaus.mojo</groupId>
             <artifactId>vfs-maven-plugin</artifactId>
             <version>1.0.1</version>
-            <configuration>
-<!--                <serverId>azure-hello-world</serverId>-->
-<!--                <skip>true</skip>-->
-<!--                <url>ftps://waws-prod-yt1-019.ftp.azurewebsites.windows.net/site/wwwroot</url>-->
-<!--                <fromDir>${project.build.directory}</fromDir>-->
-<!--                <toDir>.</toDir>-->
-            </configuration>
             <executions>
                 <execution>
                     <id>remove-old-root</id>
@@ -60,7 +53,6 @@
                         <goal>remove</goal>
                     </goals>
                     <configuration>
-                        <serverId>azure-hello-world</serverId>
                         <fileset>
                             <sourceId>azure-hello-world</sourceId>
                             <source>${azureFtpUrl}</source>
