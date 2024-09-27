@@ -13,6 +13,13 @@
         <id>azure-hello-world</id>
         <username>nolimits2creations\$nolimits2creations</username>
         <password>pZt30nZriGr4jhC7NcSZ2gcXmL1vxfhQibuvvmzNZ2YegL5ojtAlNGkRQmc7</password>
+
+        <configuration>
+            <endpointChecking>false</endpointChecking>
+            <securityProtocol>TLS</securityProtocol>
+            <implicit>true</implicit>
+            <passiveMode>true</passiveMode>
+        </configuration>
     </server>
 </servers>
 <activeProfiles>
