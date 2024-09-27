@@ -8,7 +8,6 @@
 <name>AzureAppDemo</name>
     <properties>
         <azureFtpUrl>ftps://waws-prod-yt1-019.ftp.azurewebsites.windows.net/site/wwwroot</azureFtpUrl>
-        <!-- other properties -->
     </properties>
 <dependencies>
 
@@ -29,15 +28,11 @@
         <extension>
             <groupId>org.apache.maven.wagon</groupId>
             <artifactId>wagon-ftp</artifactId>
-<!--            <version>1.0</version>-->
             <version>3.4.3</version>
         </extension>
     </extensions>
     <plugins>
         <plugin>
-<!--            <groupId>org.apache.tomcat.maven</groupId>-->
-<!--            <artifactId>tomcat7-maven-plugin</artifactId>-->
-<!--            <version>2.2</version>-->
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-war-plugin</artifactId>
             <version>3.3.1</version>
@@ -61,7 +56,6 @@
                         <fileset>
                             <sourceId>azure-hello-world</sourceId>
                             <source>${azureFtpUrl}</source>
-<!--                            <source>${azureFtpUrl}/webapps</source>-->
                         </fileset>
                     </configuration>
                 </execution>
