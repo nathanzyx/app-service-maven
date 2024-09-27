@@ -7,7 +7,7 @@
 <version>0.0.1-SNAPSHOT</version>
 <name>AzureAppDemo</name>
     <properties>
-        <azureFtpUrl>ftps://nolimits2creations\$nolimits2creations:pZt30nZriGr4jhC7NcSZ2gcXmL1vxfhQibuvvmzNZ2YegL5ojtAlNGkRQmc7@waws-prod-yt1-019.ftp.azurewebsites.windows.net/site/wwwroot</azureFtpUrl>
+        <azureFtpUrl>ftps://waws-prod-yt1-019.ftp.azurewebsites.windows.net/site/wwwroot</azureFtpUrl>
         <!-- other properties -->
     </properties>
 <dependencies>
@@ -29,7 +29,8 @@
         <extension>
             <groupId>org.apache.maven.wagon</groupId>
             <artifactId>wagon-ftp</artifactId>
-            <version>1.0</version>
+<!--            <version>1.0</version>-->
+            <version>3.4.3</version>
         </extension>
     </extensions>
     <plugins>
@@ -59,7 +60,8 @@
                     <configuration>
                         <fileset>
                             <sourceId>azure-hello-world</sourceId>
-                            <source>${azureFtpUrl}/webapps</source>
+                            <source>${azureFtpUrl}</source>
+<!--                            <source>${azureFtpUrl}/webapps</source>-->
                         </fileset>
                     </configuration>
                 </execution>
