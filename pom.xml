@@ -7,7 +7,7 @@
 <version>0.0.1-SNAPSHOT</version>
 <name>AzureAppDemo</name>
     <properties>
-        <azureFtpUrl>ftp://your-azure-account.net</azureFtpUrl>
+        <azureFtpUrl>ftps://waws-prod-yt1-019.ftp.azurewebsites.windows.net/site/wwwroot</azureFtpUrl>
         <!-- other properties -->
     </properties>
 <dependencies>
