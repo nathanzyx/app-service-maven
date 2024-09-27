@@ -74,6 +74,7 @@
                         <goal>upload-single</goal>
                     </goals>
                     <configuration>
+                        <serverId>azure-hello-world</serverId>
                         <fromFile>${basedir}/target/AzureAppDemo-0.0.1-SNAPSHOT.war</fromFile>
                         <url>${azureFtpUrl}</url>
                         <toFile>webapps/ROOT.war</toFile>
