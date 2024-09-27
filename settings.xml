@@ -14,12 +14,12 @@
         <username>nolimits2creations\$nolimits2creations</username>
         <password>pZt30nZriGr4jhC7NcSZ2gcXmL1vxfhQibuvvmzNZ2YegL5ojtAlNGkRQmc7</password>
 
-        <configuration>
-            <endpointChecking>false</endpointChecking>
-            <securityProtocol>FTPS</securityProtocol>
-            <implicit>true</implicit>
-            <passiveMode>true</passiveMode>
-        </configuration>
+<!--        <configuration>-->
+<!--            <endpointChecking>false</endpointChecking>-->
+<!--            <securityProtocol>FTPS</securityProtocol>-->
+<!--            <implicit>true</implicit>-->
+<!--            <passiveMode>true</passiveMode>-->
+<!--        </configuration>-->
     </server>
 </servers>
 <activeProfiles>
