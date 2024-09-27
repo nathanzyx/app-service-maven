@@ -53,6 +53,7 @@
                         <goal>remove</goal>
                     </goals>
                     <configuration>
+                        <serverId>azure-hello-world</serverId>
                         <fileset>
                             <sourceId>azure-hello-world</sourceId>
                             <source>${azureFtpUrl}</source>
