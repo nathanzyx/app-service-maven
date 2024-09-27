@@ -6,9 +6,12 @@
 <packaging>war</packaging>
 <version>0.0.1-SNAPSHOT</version>
 <name>AzureAppDemo</name>
+    <properties>
+        <azureFtpUrl>YOUR_AZURE_FTP_URL</azureFtpUrl>
+        <!-- other properties -->
+    </properties>
 <dependencies>
-<!--    set azureFtpUrl=YOUR_AZURE_FTP_URL-->
-    <!-- https://mvnrepository.com/artifact/com.microsoft.azure/azure-storage -->
+
     <dependency>
         <groupId>com.microsoft.azure</groupId>
         <artifactId>azure-storage</artifactId>
